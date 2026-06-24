@@ -12,7 +12,12 @@ the last two display as they are located in github pages.
 - [Sandhill Cranes GitHub](https://github.com/byandell-envsys/landmapyr/blob/main/docs/sandhill_crane.html)
 - [Sandhill Cranes Local](sandhill_crane.html)
 
-Here is the Western Meadowlark
+Here is the Western Meadowlark (_Tasiyagnunpa_) from 
+[cu-esiil-edu/03-migration-MarshaJ24](https://github.com/cu-esiil-edu/03-migration-MarshaJ24)
+stored locally in this repo.
+
+- [Remote copy of tasiyagnunpa_migration.html](https://github.com/cu-esiil-edu/03-migration-MarshaJ24/blob/main/notebooks/tasiyagnunpa_migration.html)
+- [Local copy of tasiyagnunpa_migration.html](tasiyagnunpa_migration.html)
 
 Here are 3 different versions of the `README.md` page of this repo. 
 Hover over the link to reveal where it is going.
