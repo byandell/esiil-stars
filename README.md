@@ -10,7 +10,7 @@ by turning on GitHub Pages in the same manner as the assignment to
 - [Keeping Track of Your Work](#keeping-track-of-your-work)
 - [Displaying HTML Pages](#displaying-html-pages)
 - [Raw vs Rendered GitHub Pages](#raw-vs-rendered-github-pages)
-- 
+
 ## Keeping Track of Your Work
 
 Where did I have that repo?
