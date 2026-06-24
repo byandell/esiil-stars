@@ -11,7 +11,7 @@ by turning on GitHub Pages in the same manner as the assignment to
 ## Raw vs Rendered GitHub pages
 
 It is helpful to notice how the
-[`esiil-stars` published page](https://byandell.github.io/esiil-stars)
+[`esiil-stars` published portfolio](https://byandell.github.io/esiil-stars)
 and the
 [README.md in GitHub](https://github.com/byandell/esiil-stars/blob/main/README.md)
 versions of this page differ.
@@ -19,9 +19,9 @@ versions of this page differ.
 Here are 3 different versions of this `README.md` page of this repo. 
 Hover over the link to reveal where it is going.
 
-- [`esiil-stars` published page](https://byandell.github.io/esiil-stars) (rendered published page via GitHub Pages)
-- [README.md in GitHub](https://github.com/byandell/esiil-stars/blob/main/README.md) (rendered markdown via GitHub)
-- [README.md source on published GitHub Pages](https://byandell.github.io/esiil-stars/README.md) (raw markdown via GitHub Pages)
+- [byandell.github.io/esiil-stars](https://byandell.github.io/esiil-stars) (published portfolio via GitHub Pages)
+- [byandell/esiil-stars/README.md](https://github.com/byandell/esiil-stars/blob/main/README.md) (rendered markdown via GitHub)
+- [byandell.github.io/esiil-stars/README.md](https://byandell.github.io/esiil-stars/README.md) (raw markdown via GitHub Pages)
 
 ## Displaying HTML Pages
 
