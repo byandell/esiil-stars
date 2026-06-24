@@ -8,6 +8,21 @@ is displayed via GitHub pages as
 by turning on GitHub Pages in the same manner as the assignment to
 [Build your Environmental Data Science portfolio](https://earthdatascience.org/pages/03-git-github/03-github-portfolio/portfolio-stars.html).
 
+## Raw vs Rendered GitHub pages
+
+It is helpful to notice how the
+[`esiil-stars` published page](https://byandell.github.io/esiil-stars)
+and the
+[README.md in GitHub](https://github.com/byandell/esiil-stars/blob/main/README.md)
+versions of this page differ.
+
+Here are 3 different versions of this `README.md` page of this repo. 
+Hover over the link to reveal where it is going.
+
+- [`esiil-stars` published page](https://byandell.github.io/esiil-stars) (rendered published page via GitHub Pages)
+- [README.md in GitHub](https://github.com/byandell/esiil-stars/blob/main/README.md) (rendered markdown via GitHub)
+- [README.md source on published GitHub Pages](https://byandell.github.io/esiil-stars/README.md) (raw markdown via GitHub Pages)
+
 ## Displaying HTML Pages
 
 The way to display an HTML file, such as a dynamic migration presentation,
@@ -29,10 +44,3 @@ the last two display as they are located in github pages.
 
 - [portfolio page](https://byandell.github.io/esiil-stars/tasiyagnunpa_migration.html) (renders)
 - [portfolio repo](https://github.com/byandell/esiil-stars/blob/main/tasiyagnunpa_migration.html) (does not render)
-
-Here are 3 different versions of this `README.md` page of this repo. 
-Hover over the link to reveal where it is going.
-
-- [`esiil-stars` published page](https://byandell.github.io/esiil-stars) (rendered published page via GitHub Pages)
-- [README.md in GitHub](https://github.com/byandell/esiil-stars/blob/main/README.md) (rendered markdown via GitHub)
-- [README.md source on published GitHub Pages](https://byandell.github.io/esiil-stars/README.md) (raw markdown via GitHub Pages)
