@@ -18,9 +18,10 @@ You can use your portfolio to keep track of your work.
 This is helpful for you, and lets other people who visit your portfolio know what you have done.
 This can be useful later to help build your resume, or collection of your work.
 Just add links to your projects.
-For instance, here is the ESIIL Stars 2026 page:
+For instance, here is the ESIIL Stars 2026 page and textbook:
 
 - [stars-2026](https://github.com/cu-esiil-edu/stars-2026)
+- [ESIIL Stars Textbook](https://earthdatascience.org/pages/00-overviews/04a-courses/stars/)
 
 I can include work of ESIIL Stars students right here.
 Here are some migration projects in progress from OLC:
