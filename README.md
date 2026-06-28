@@ -96,7 +96,9 @@ Hover over the link to reveal where it is going.
 ## Publishing a Repo with GitHub Pages
 
 This set of documents is published using
-[GitHub Pages](https://byandell.github.io/Documentation/github/#github-pages).
+[GitHub Pages](https://byandell.github.io/Documentation/github/#github-pages)
+from the repo
+<https://github.com/byandell/esiil-stars>.
 For a GitHub organization like the
 [Oglala Lakota College Geospatial Data Science Hub](https://github.com/olc-techsupport),
 the repo for ESIIL Stars might be `private` but may have a `public` published set of pages.
