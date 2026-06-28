@@ -12,6 +12,7 @@ by turning on GitHub Pages in the same manner as the assignment to
   - [Linking the HTML Page](#linking-the-html-page)
   - [Embedding Dynamic HTML in Published GitHub Pages](#embedding-dynamic-html-in-published-github-pages)
 - [Raw vs Rendered GitHub Pages](#raw-vs-rendered-github-pages)
+- [Publishing a Repo with GitHub Pages](#publishing-a-repo-with-github-pages)
 - [Documentation for Digital Tools](https://byandell.github.io/Documentation)
 
 ## Keeping Track of Your Work
@@ -91,3 +92,17 @@ Hover over the link to reveal where it is going.
 - [byandell.github.io/esiil-stars](https://byandell.github.io/esiil-stars) (published portfolio via GitHub Pages)
 - [byandell/esiil-stars/README.md](https://github.com/byandell/esiil-stars/blob/main/README.md) (rendered markdown via GitHub)
 - [byandell.github.io/esiil-stars/README.md](https://byandell.github.io/esiil-stars/README.md) (raw markdown via GitHub Pages)
+
+## Publishing a Repo with GitHub Pages
+
+This set of documents is published using
+[GitHub Pages](https://byandell.github.io/Documentation/github/#github-pages).
+For a GitHub organization like the
+[Oglala Lakota College Geospatial Data Science Hub](https://github.com/olc-techsupport),
+the repo for ESIIL Stars might be `private` but may have a `public` published set of pages.
+In that case, it is important to set up the GitHub Pages for the team repo to be in the `docs/` folder.
+Note that once published, things in the `docs/` folder will be `public`.
+Here is a site with fairly good instructions to set this up:
+
+- [The Least You Need to Know About GitHub Pages](https://tomcam.github.io/least-github-pages/set-github-pages-master-branch.html)
+
