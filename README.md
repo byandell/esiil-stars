@@ -102,11 +102,13 @@ from the repo
 For a GitHub organization like the
 [OLC Integrated Data Cube](https://olc-techsupport.github.io/),
 a repo for ESIIL Stars might be `private`
-(say
-`https://github.com/olc-techsupport/olc_esiil_stars`)
 but may have a `public` published set of pages
-(say
-`https://olc-techsupport.github.io/olc_esiil_stars`) hosted from the `docs/` folder.
+hosted from the `docs/` folder.
+For instance (with fake repo name `olc_stars`):
+
+- `https://github.com/olc-techsupport/olc_stars` (private repo)
+- `https://olc-techsupport.github.io/olc_stars` (public pages)
+
 In that case, it is important to set up the GitHub Pages for the team repo to be in the `docs/` folder.
 Note that once published, things in the `docs/` folder will be `public`.
 Here is a site with fairly good instructions to set this up:
