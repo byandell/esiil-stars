@@ -71,7 +71,7 @@ but it will display on the published page
 once the edits are committed to GitHub.
 
 Here is the code used in this `README.md` document.
-It is actually written in HTML.
+It is actually written in HTML that can be included in a markdown document.
 Note the `width` and `height`, which can be tweeked.
 
 ```
