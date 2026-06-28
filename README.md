@@ -100,8 +100,13 @@ This set of documents is published using
 from the repo
 <https://github.com/byandell/esiil-stars>.
 For a GitHub organization like the
-[Oglala Lakota College Geospatial Data Science Hub](https://github.com/olc-techsupport),
-the repo for ESIIL Stars might be `private` but may have a `public` published set of pages.
+[OLC Integrated Data Cube](https://olc-techsupport.github.io/),
+a repo for ESIIL Stars might be `private`
+(say
+`https://github.com/olc-techsupport/olc_esiil_stars`)
+but may have a `public` published set of pages
+(say
+`https://olc-techsupport.github.io/olc_esiil_stars`) hosted from the `docs/` folder.
 In that case, it is important to set up the GitHub Pages for the team repo to be in the `docs/` folder.
 Note that once published, things in the `docs/` folder will be `public`.
 Here is a site with fairly good instructions to set this up:
