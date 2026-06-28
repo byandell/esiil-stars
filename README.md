@@ -9,6 +9,8 @@ by turning on GitHub Pages in the same manner as the assignment to
 
 - [Keeping Track of Your Work](#keeping-track-of-your-work)
 - [Displaying HTML Pages](#displaying-html-pages)
+  - [Linking the HTML Page](#linking-the-html-page)
+  - [Embedding Dynamic HTML in Published GitHub Pages](#embedding-dynamic-html-in-published-github-pages)
 - [Raw vs Rendered GitHub Pages](#raw-vs-rendered-github-pages)
 - [Documentation for Digital Tools](https://byandell.github.io/Documentation)
 
@@ -55,13 +57,17 @@ the last two display as they are located in github pages.
 - [portfolio page](https://byandell.github.io/esiil-stars/tasiyagnunpa_migration.html) (renders)
 - [portfolio repo](https://github.com/byandell/esiil-stars/blob/main/tasiyagnunpa_migration.html) (does not render)
 
-### Embedding the HTML Page in THIS Page
+### Embedding Dynamic HTML in Published GitHub Pages
 
 Here we embed the dynamic HTML page in this page:
 
 <embed type="text/html" src="tasiyagnunpa_migration.html" width="1200" height="600">
 
-This will not dispay in `Preview` mode, but will display once the edits are committed to GitHub.
+**Warning:**
+This image will not dispay in `Preview` mode or in the GitHub repo,
+but it will display on the published page
+<https://byandell.github.io/esiil-stars/>
+once the edits are committed to GitHub.
 
 Here is the code used in this `README.md` document.
 It is actually written in HTML.
