@@ -12,7 +12,7 @@ by turning on GitHub Pages in the same manner as the assignment to
   - [Linking the HTML Page](#linking-the-html-page)
   - [Embedding Dynamic HTML in Published GitHub Pages](#embedding-dynamic-html-in-published-github-pages)
 - [Raw vs Rendered GitHub Pages](#raw-vs-rendered-github-pages)
-- [Publishing a Repo with GitHub Pages](#publishing-a-repo-with-github-pages)
+- [Publishing From a Repo with GitHub Pages](#publishing-from-a-repo-with-github-pages)
 - [Documentation for Digital Tools](https://byandell.github.io/Documentation)
 
 ## Keeping Track of Your Work
@@ -93,7 +93,7 @@ Hover over the link to reveal where it is going.
 - [byandell/esiil-stars/README.md](https://github.com/byandell/esiil-stars/blob/main/README.md) (rendered markdown via GitHub)
 - [byandell.github.io/esiil-stars/README.md](https://byandell.github.io/esiil-stars/README.md) (raw markdown via GitHub Pages)
 
-## Publishing a Repo with GitHub Pages
+## Publishing From a Repo with GitHub Pages
 
 This set of documents is published using
 [GitHub Pages](https://byandell.github.io/Documentation/github/#github-pages)
