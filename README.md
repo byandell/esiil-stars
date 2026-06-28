@@ -33,11 +33,13 @@ Here are some migration projects in progress from OLC:
 
 ## Displaying HTML Pages
 
-The way to display an HTML file, such as a dynamic migration presentation,
+The way to link an HTML file, such as a dynamic migration presentation,
 is to save it in a portfolio repo that is rendered via GitHub pages,
 such as using a `[homepage].github.io`.
 HTML files (ending in `.html`) do not display well in GitHub,
 but will display via GitHub Pages.
+
+### Linking the HTML Page
 
 Here is the Western Meadowlark (_Tasiyagnunpa_) from 
 [cu-esiil-edu/03-migration-MarshaJ24](https://github.com/cu-esiil-edu/03-migration-MarshaJ24)
@@ -52,6 +54,22 @@ the last two display as they are located in github pages.
 
 - [portfolio page](https://byandell.github.io/esiil-stars/tasiyagnunpa_migration.html) (renders)
 - [portfolio repo](https://github.com/byandell/esiil-stars/blob/main/tasiyagnunpa_migration.html) (does not render)
+
+### Embedding the HTML Page in THIS Page
+
+Here we embed the dynamic HTML page in this page:
+
+<embed type="text/html" src="tasiyagnunpa_migration.html" width="1200" height="600">
+
+This will not dispay in `Preview` mode, but will display once the edits are committed to GitHub.
+
+Here is the code used in this `README.md` document.
+It is actually written in HTML.
+Note the `width` and `height`, which can be tweeked.
+
+```
+<embed type="text/html" src="tasiyagnunpa_migration.html" width="1200" height="600">
+```
 
 ## Raw vs Rendered GitHub Pages
 
