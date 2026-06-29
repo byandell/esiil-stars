@@ -14,6 +14,7 @@ by turning on GitHub Pages in the same manner as the assignment to
 - [Raw vs Rendered GitHub Pages](#raw-vs-rendered-github-pages)
 - [Publishing From a Repo with GitHub Pages](#publishing-from-a-repo-with-github-pages)
 - [Documentation for Digital Tools](https://byandell.github.io/Documentation)
+  - [Collaborating with GitHub Organizations](https://byandell.github.io/Documentation/github/#collaborating-with-github-organizations) 
 
 ## Keeping Track of Your Work
 
