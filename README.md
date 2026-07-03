@@ -1,7 +1,7 @@
 # ESIIL Stars Training Notes
 
 This repo
-[esiil-stars](https://github.com/byandell/esiil-stars)
+<https://github.com/byandell/esiil-stars>
 is displayed via GitHub pages as
 [byandell.github.io/esiil-stars](https://byandell.github.io/esiil-stars)
 by turning on GitHub Pages in the same manner as the assignment to
