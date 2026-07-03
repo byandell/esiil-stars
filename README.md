@@ -1,7 +1,7 @@
 # ESIIL Stars Training Notes
 
 These notes are associated with
-[ESIIL Stars](https://esiil.org/esiil-network#esiil-stars)
+[ESIIL Stars](https://esiil.org/esiil-stars)
 and the GitHub Organization
 [cu-esiil-edu](https://github.com/cu-esiil-edu),
 notably
