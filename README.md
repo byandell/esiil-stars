@@ -3,7 +3,8 @@
 These notes are associated with ESIIL Stars 2026 Cohort:
 
 - [ESIIL Stars](https://esiil.org/esiil-stars)
-- [cu-esiil-edu](https://github.com/cu-esiil-edu) & [cu-esiil-edu/stars-2026](https://github.com/cu-esiil-edu/stars-2026)
+- [cu-esiil-edu](https://github.com/cu-esiil-edu) GitHub Organization
+  - [cu-esiil-edu/stars-2026](https://github.com/cu-esiil-edu/stars-2026)
 - [ESIIL Stars (EDS Learning Portal)](https://earthdatascience.org/pages/00-overviews/04a-courses/stars/)
 
 This repo
