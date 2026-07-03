@@ -7,16 +7,16 @@ is displayed via GitHub pages as
 by turning on GitHub Pages in the same manner as the assignment to
 [Build your Environmental Data Science portfolio](https://earthdatascience.org/pages/03-git-github/03-github-portfolio/portfolio-stars.html).
 
-- [Keeping Track of Your Work](#keeping-track-of-your-work)
-- [Displaying HTML Pages](#displaying-html-pages)
-  - [Linking the HTML Page](#linking-the-html-page)
-  - [Embedding Dynamic HTML in Published GitHub Pages](#embedding-dynamic-html-in-published-github-pages)
-- [Raw vs Rendered GitHub Pages](#raw-vs-rendered-github-pages)
-- [Publishing From a Repo with GitHub Pages](#publishing-from-a-repo-with-github-pages)
-- [Documentation for Digital Tools](https://byandell.github.io/Documentation)
-  - [Collaborating with GitHub Organizations](https://byandell.github.io/Documentation/github/#collaborating-with-github-organizations) 
+- [Keep Track of Your Work](#keep-track-of-your-work)
+- [Embed Dynamic HTML in GitHub Pages](#embed-dynamic-html-in-github-pages)
+- [Publish `docs/` Folder From Private Repo](#publish-docs-folder-from-private-repo)
+- [The Least You Need to Know About GitHub Pages](https://tomcam.github.io/least-github-pages/set-github-pages-master-branch.html)
+- Additional Reading from [Document Digital Tools](https://byandell.github.io/Documentation)
+  - [Publish GitHub Pages](https://byandell.github.io/Documentation/github/pages.html)
+  - [Embed Objects in GitHub Pages](https://byandell.github.io/Documentation/github/embed.html)
+  - [Collaborate with GitHub Organizations](https://byandell.github.io/Documentation/github/#collaborate-with-github-organizations) 
 
-## Keeping Track of Your Work
+## Keep Track of Your Work
 
 Where did I have that repo?
 You can use your portfolio to keep track of your work.
@@ -35,84 +35,67 @@ Here are some migration projects in progress from OLC:
 - [03-migration-MarshaJ24](https://github.com/cu-esiil-edu/03-migration-MarshaJ24)
 - [03-migration-LeonAmbroseJr](https://github.com/cu-esiil-edu/03-migration-LeonAmbroseJr)
 
-## Displaying HTML Pages
+## Embed Dynamic HTML in GitHub Pages
 
-The way to link an HTML file, such as a dynamic migration presentation,
+The way to link a dynamic HTML file, such as a dynamic migration presentation,
 is to save it in a portfolio repo that is rendered via GitHub pages,
 such as using a `[homepage].github.io`.
 HTML files (ending in `.html`) do not display well in GitHub,
 but will display via GitHub Pages.
+See
+[Embed Objects in GitHub Pages](https://byandell.github.io/Documentation/github/embed.html)
+for more detail.
 
-### Linking the HTML Page
+This is with the Western Meadowlark (_Tasiyagnunpa_) from 
+[cu-esiil-edu/03-migration-MarshaJ24](https://github.com/cu-esiil-edu/03-migration-MarshaJ24),
+a student fork of
+[cu-esiil-edu/stars-03-migration-template](https://github.com/cu-esiil-edu/stars-03-migration-template).
+The dynamic HTML file is saved as
+[tasiyagnunpa_migration.html](https://byandell.github.io/esiil-stars/tasiyagnunpa_migration.html).
 
-Here is the Western Meadowlark (_Tasiyagnunpa_) from 
-[cu-esiil-edu/03-migration-MarshaJ24](https://github.com/cu-esiil-edu/03-migration-MarshaJ24)
-first trying to display the remote file,
-then using GitHub Pages rendering the locally stored in this repo.
+Here we embed the dynamic HTML page in this page using
 
-- [Remote file tasiyagnunpa_migration.html](https://github.com/cu-esiil-edu/03-migration-MarshaJ24/blob/main/notebooks/tasiyagnunpa_migration.html)
-- [Local copy of tasiyagnunpa_migration.html](tasiyagnunpa_migration.html)
+```
+<iframe src="tasiyagnunpa_migration.html"
+ title="Tasiyagnunpa Migration"
+ width="100%" height="600px"></iframe>
+```
 
-Here are 2 versions of the same HTML file with explicit link
-the last two display as they are located in github pages.
+Note the `width` and `height`, which can be tweeked.
+The `title` option is useful if for some reason the page does not render.
 
-- [portfolio page](https://byandell.github.io/esiil-stars/tasiyagnunpa_migration.html) (renders)
-- [portfolio repo](https://github.com/byandell/esiil-stars/blob/main/tasiyagnunpa_migration.html) (does not render)
+<iframe src="tasiyagnunpa_migration.html"
+ title="Tasiyagnunpa Migration"
+ width="100%" height="600px"></iframe>
 
-### Embedding Dynamic HTML in Published GitHub Pages
-
-Here we embed the dynamic HTML page in this page:
-
-<embed type="text/html" src="tasiyagnunpa_migration.html" width="1200" height="600">
-
-**Warning:**
-This image will not dispay in `Preview` mode or in the GitHub repo,
+**Note:**
+This image will not display properly in `Preview` mode or in the GitHub repo,
 but it will display on the published page
-<https://byandell.github.io/esiil-stars/>
+<https://byandell.github.io/esiil-stars>
 once the edits are committed to GitHub.
 
-Here is the code used in this `README.md` document.
-It is actually written in HTML that can be included in a markdown document.
-Note the `width` and `height`, which can be tweeked.
+## Publish `docs/` Folder From Private Repo
 
-```
-<embed type="text/html" src="tasiyagnunpa_migration.html" width="1200" height="600">
-```
+This is gleaned from
+[Publish GitHub Pages](https://byandell.github.io/Documentation/github/pages.html)
+and adapted for the a GitHub organization like the
+[OLC Integrated Data Cube](https://olc-techsupport.github.io/).
+See also notes on how to
+[Collaborate with GitHub Organizations](https://byandell.github.io/Documentation/github/#collaborate-with-github-organizations).
 
-## Raw vs Rendered GitHub Pages
-
-It is helpful to notice how the
-[`esiil-stars` published portfolio](https://byandell.github.io/esiil-stars)
-and the
-[README.md in GitHub](https://github.com/byandell/esiil-stars/blob/main/README.md)
-versions of this page differ.
-
-Here are 3 different versions of this `README.md` page of this repo. 
-Hover over the link to reveal where it is going.
-
-- [byandell.github.io/esiil-stars](https://byandell.github.io/esiil-stars) (published portfolio via GitHub Pages)
-- [byandell/esiil-stars/README.md](https://github.com/byandell/esiil-stars/blob/main/README.md) (rendered markdown via GitHub)
-- [byandell.github.io/esiil-stars/README.md](https://byandell.github.io/esiil-stars/README.md) (raw markdown via GitHub Pages)
-
-## Publishing From a Repo with GitHub Pages
-
-This set of documents is published using
-[GitHub Pages](https://byandell.github.io/Documentation/github/#github-pages)
-from the repo
-<https://github.com/byandell/esiil-stars>.
-For a GitHub organization like the
-[OLC Integrated Data Cube](https://olc-techsupport.github.io/),
-a repo for ESIIL Stars might be `private`
+A repo for ESIIL Stars might be `private` in such an organization
 but may have a `public` published set of pages
 hosted from the `docs/` folder.
-For instance (with fake repo name `olc_stars`):
+For instance the simple repo `private-demo` in the
+[OLC Integrated Data Cube](https://olc-techsupport.github.io/)
+is only visible to authorized OLC members.
+However, the published page is visible to all.
 
-- `https://github.com/olc-techsupport/olc_stars` (private repo)
-- `https://olc-techsupport.github.io/olc_stars` (public pages)
+- <https://github.com/olc-techsupport/private-demo> (private repo)
+- <https://olc-techsupport.github.io/private-demo> (public page)
 
-In that case, it is important to set up the GitHub Pages for the team repo to be in the `docs/` folder.
-Note that once published, things in the `docs/` folder will be `public`.
-Here is a site with fairly good instructions to set this up:
+**Note:** 
+Set up the GitHub Pages for the team repo to use the `docs/` folder.
+Once published, things in the `docs/` folder will be `public`.
 
-- [The Least You Need to Know About GitHub Pages](https://tomcam.github.io/least-github-pages/set-github-pages-master-branch.html)
 
