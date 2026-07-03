@@ -10,11 +10,12 @@ by turning on GitHub Pages in the same manner as the assignment to
 - [Keep Track of Your Work](#keep-track-of-your-work)
 - [Embed Dynamic HTML in GitHub Pages](#embed-dynamic-html-in-github-pages)
 - [Publish `docs/` Folder From Private Repo](#publish-docs-folder-from-private-repo)
-- [The Least You Need to Know About GitHub Pages](https://tomcam.github.io/least-github-pages/set-github-pages-master-branch.html)
-- Additional Reading from [Document Digital Tools](https://byandell.github.io/Documentation)
-  - [Publish GitHub Pages](https://byandell.github.io/Documentation/github/pages.html)
-  - [Embed Objects in GitHub Pages](https://byandell.github.io/Documentation/github/embed.html)
-  - [Collaborate with GitHub Organizations](https://byandell.github.io/Documentation/github/#collaborate-with-github-organizations) 
+- Additional Reading
+  - [The Least You Need to Know About GitHub Pages](https://tomcam.github.io/least-github-pages/set-github-pages-master-branch.html)
+  - [Document Digital Tools](https://byandell.github.io/Documentation)
+    - [Publish GitHub Pages](https://byandell.github.io/Documentation/github/pages.html)
+    - [Embed Objects in GitHub Pages](https://byandell.github.io/Documentation/github/embed.html)
+    - [Collaborate with GitHub Organizations](https://byandell.github.io/Documentation/github/#collaborate-with-github-organizations) 
 
 ## Keep Track of Your Work
 
