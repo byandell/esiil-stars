@@ -3,7 +3,9 @@
 These notes are associated with
 [ESIIL Stars](https://esiil.org/esiil-network#esiil-stars)
 and the GitHub Organization
-[cu-esiil-edu](https://github.com/cu-esiil-edu/stars-2026).
+[cu-esiil-edu](https://github.com/cu-esiil-edu),
+notably
+[cu-esiil-edu/stars-2026](https://github.com/cu-esiil-edu/stars-2026).
 
 This repo
 <https://github.com/byandell/esiil-stars>
