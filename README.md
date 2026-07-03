@@ -29,12 +29,19 @@ For instance, here is the ESIIL Stars 2026 page and textbook:
 - [stars-2026](https://github.com/cu-esiil-edu/stars-2026)
 - [ESIIL Stars Textbook](https://earthdatascience.org/pages/00-overviews/04a-courses/stars/)
 
-I can include work of ESIIL Stars students right here.
-Here are some migration projects in progress from OLC:
+I include profiles of ESIIL Stars students right here.
+Here are migration projects in progress from OLC students (along with their profiles):
 
-- [03-migration-summer-dupree](https://github.com/cu-esiil-edu/03-migration-summer-dupree)
-- [03-migration-MarshaJ24](https://github.com/cu-esiil-edu/03-migration-MarshaJ24)
-- [03-migration-LeonAmbroseJr](https://github.com/cu-esiil-edu/03-migration-LeonAmbroseJr)
+- [03-migration-MarshaJ24](https://github.com/cu-esiil-edu/03-migration-MarshaJ24) ([Marsha Janis](https://MarshaJ24.github.io))
+- [03-migration-LeonAmbroseJr](https://github.com/cu-esiil-edu/03-migration-LeonAmbroseJr) ([Leon Red Kettle](https://LeonAmbroseJr.github.io))
+- [03-migration-CeceCoded](https://github.com/cu-esiil-edu/03-migration-CeceCoded) ([Cecelia Two Lance](https://CeCeCoded.github.io))
+- [03-migration-summer-dupree](https://github.com/cu-esiil-edu/03-migration-summer-dupree) ([Summer Dupree](https://summer-dupree.github.io))
+
+And here are the OLC faculty:
+
+- [Dana Gehring](https://github.com/drg799802)
+- [Cami Griffith](https://github.com/camgrif)
+- [Elisha *Wakinyan Zi* Yellow Thunder](https://github.com/wakinyanzi)
 
 ## Embed Dynamic HTML in GitHub Pages
 
