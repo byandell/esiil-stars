@@ -1,11 +1,10 @@
 # ESIIL Stars Training Notes
 
-These notes are associated with
-[ESIIL Stars](https://esiil.org/esiil-stars)
-and the GitHub Organization
-[cu-esiil-edu](https://github.com/cu-esiil-edu),
-notably
-[cu-esiil-edu/stars-2026](https://github.com/cu-esiil-edu/stars-2026).
+These notes are associated with ESIIL Stars 2026 Cohort
+
+- [ESIIL Stars](https://esiil.org/esiil-stars)
+- [cu-esiil-edu](https://github.com/cu-esiil-edu) & [cu-esiil-edu/stars-2026](https://github.com/cu-esiil-edu/stars-2026).
+- [ESIIL Stars (EDS Learning Portal)](https://earthdatascience.org/pages/00-overviews/04a-courses/stars/)
 
 This repo
 <https://github.com/byandell/esiil-stars>
@@ -18,6 +17,7 @@ by turning on GitHub Pages in the same manner as the assignment to
 - [Embed Dynamic HTML in GitHub Pages](#embed-dynamic-html-in-github-pages)
 - [Publish `docs/` Folder From Private Repo](#publish-docs-folder-from-private-repo)
 - Additional Reading
+  - [ESIIL Stars (EDS Learning Portal)](https://earthdatascience.org/pages/00-overviews/04a-courses/stars/)
   - [The Least You Need to Know About GitHub Pages](https://tomcam.github.io/least-github-pages/set-github-pages-master-branch.html)
   - [Document Digital Tools](https://byandell.github.io/Documentation)
     - [Publish GitHub Pages](https://byandell.github.io/Documentation/github/pages.html)
