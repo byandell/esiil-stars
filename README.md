@@ -9,7 +9,7 @@ These notes are associated with ESIIL Stars 2026 Cohort:
 
 This repo
 <https://github.com/byandell/esiil-stars>
-is displayed via GitHub pages as
+is published via GitHub pages as
 [byandell.github.io/esiil-stars](https://byandell.github.io/esiil-stars)
 by turning on GitHub Pages in the same manner as the assignment to
 [Build your Environmental Data Science portfolio](https://earthdatascience.org/pages/03-git-github/03-github-portfolio/portfolio-stars.html).
