@@ -16,7 +16,9 @@ by turning on GitHub Pages in the same manner as the assignment to
 
 - [Keep Track of Your Work](#keep-track-of-your-work)
 - [Embed Dynamic HTML in GitHub Pages](#embed-dynamic-html-in-github-pages)
-- [Publish `docs/` Folder From Private Repo](#publish-docs-folder-from-private-repo)
+- [Publish with GitHub Pages](#publish-with-github-pages)
+  - [Published ESIIL Stars Projects](#published-esiil-stars-projects) 
+  - [Publish `docs/` Folder From Private Repo](#publish-docs-folder-from-private-repo)
 - Additional Reading
   - [ESIIL Stars (EDS Learning Portal)](https://earthdatascience.org/pages/00-overviews/04a-courses/stars/)
   - [The Least You Need to Know About GitHub Pages](https://tomcam.github.io/least-github-pages/set-github-pages-master-branch.html)
@@ -90,7 +92,7 @@ but it will display on the published page
 <https://byandell.github.io/esiil-stars>
 once the edits are committed to GitHub.
 
-## Publish `docs/` Folder From Private Repo
+## Publish with GitHub Pages
 
 This is gleaned from
 [Publish GitHub Pages](https://byandell.github.io/Documentation/github/pages.html)
@@ -98,6 +100,15 @@ and adapted for the a GitHub organization like the
 [OLC Integrated Data Cube](https://olc-techsupport.github.io/).
 See also notes on how to
 [Collaborate with GitHub Organizations](https://byandell.github.io/Documentation/github/#collaborate-with-github-organizations).
+
+### Published ESIIL Stars Projects
+
+This is a list of some ESIIL Stars projects published with GitHub Pages.
+
+- [Spatiotemporal Trends in Colorado’s Hydrologic Systems](https://lakevs14.github.io/ESIIL/) |
+[GitHub Repo](https://github.com/Lakevs14/ESIIL) ([MSU Denver](https://www.msudenver.edu/))
+
+### Publish `docs/` Folder From Private Repo
 
 A repo for ESIIL Stars might be `private` in such an organization
 but may have a `public` published set of pages
