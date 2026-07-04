@@ -119,7 +119,13 @@ is only visible to authorized OLC members.
 However, the published page is visible to all.
 
 - <https://github.com/olc-techsupport/private-repo> (private repo)
-- <https://olc-techsupport.github.io/private-repo> (public page)
+- <https://olc-techsupport.github.io/private-repo> (public profile)
+
+For contrast, consider the `public-repo` in the same organization,
+for with both the GitHub repo and the GitHub Pages profile are visible:
+
+- <https://github.com/olc-techsupport/public-repo> (public repo)
+- <https://olc-techsupport.github.io/public-repo> (public profile)
 
 **Note:** 
 Set up the GitHub Pages for the team repo to use the `docs/` folder.
