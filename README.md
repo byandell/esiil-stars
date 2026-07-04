@@ -113,13 +113,13 @@ This is a list of some ESIIL Stars projects published with GitHub Pages.
 A repo for ESIIL Stars might be `private` in such an organization
 but may have a `public` published set of pages
 hosted from the `docs/` folder.
-For instance the simple repo `private-demo` in the
+For instance the simple repo `private-repo` in the
 [OLC Integrated Data Cube](https://olc-techsupport.github.io/)
 is only visible to authorized OLC members.
 However, the published page is visible to all.
 
-- <https://github.com/olc-techsupport/private-demo> (private repo)
-- <https://olc-techsupport.github.io/private-demo> (public page)
+- <https://github.com/olc-techsupport/private-repo> (private repo)
+- <https://olc-techsupport.github.io/private-repo> (public page)
 
 **Note:** 
 Set up the GitHub Pages for the team repo to use the `docs/` folder.
