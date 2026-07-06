@@ -19,6 +19,8 @@ by turning on GitHub Pages in the same manner as the assignment to
 - [Publish with GitHub Pages](#publish-with-github-pages)
   - [Published ESIIL Stars Projects](#published-esiil-stars-projects) 
   - [Publish `docs/` Folder From Private Repo](#publish-docs-folder-from-private-repo)
+    - [Prototype Publishing with `cu-esiil-edu` Org](#prototype-publishing-with-cu-esiil-edu-org)
+    - [Prototype Publishing with OLC Org](#prototype-publishing-with-olc-org)
 - Additional Reading
   - [ESIIL Stars (EDS Learning Portal)](https://earthdatascience.org/pages/00-overviews/04a-courses/stars/)
   - [The Least You Need to Know About GitHub Pages](https://tomcam.github.io/least-github-pages/set-github-pages-master-branch.html)
@@ -113,7 +115,39 @@ This is a list of some ESIIL Stars projects published with GitHub Pages.
 A repo for ESIIL Stars might be `private` in such an organization
 but may have a `public` published set of pages
 hosted from the `docs/` folder.
-For instance the simple repo `private-repo` in the
+
+**Note:** 
+To set up the `GitHub Pages` for a `GitHub Organization` repo
+to use the `docs/` folder, follow
+[The Least You Need to Know About GitHub Pages](https://tomcam.github.io/least-github-pages/set-github-pages-master-branch.html).
+Once published, things in the `docs/` folder will be `public`.
+If the repo is `private`, it will remain `private`.
+
+#### Prototype Publishing with `cu-esiil-edu` Org 
+
+The simple repo `private-repo` in the
+[ESIIL Education](https://cu-esiil-edu.github.io/)
+`GitHub Organization
+is only visible to authorized members,
+which are typically ESIIL faculty and staff. 
+However, the published page is visible to all.
+
+- <https://github.com/cu-esiil-edu/private-repo> (private repo)
+- <https://cu-esiil-edu.github.io/private-repo> (public profile)
+
+For contrast, consider the `public-repo` in the same organization,
+for with both the GitHub repo and the GitHub Pages profile are visible:
+
+- <https://github.com/cu-esiil-edu/public-repo> (public repo)
+- <https://cu-esiil-edu.github.io/public-repo> (public profile)
+
+#### Prototype Publishing with OLC Org 
+
+Here is another prototype using one of the ESIIL Stars teams.
+(Note how `cu-esiil-edu` is replaced by `olc-techsupport` below
+and in the repos.)
+The simple repo `private-repo` in the
+Oglala Lakota College GitHub Organization
 [OLC Integrated Data Cube](https://olc-techsupport.github.io/)
 is only visible to authorized OLC members.
 However, the published page is visible to all.
@@ -126,9 +160,5 @@ for with both the GitHub repo and the GitHub Pages profile are visible:
 
 - <https://github.com/olc-techsupport/public-repo> (public repo)
 - <https://olc-techsupport.github.io/public-repo> (public profile)
-
-**Note:** 
-Set up the GitHub Pages for the team repo to use the `docs/` folder.
-Once published, things in the `docs/` folder will be `public`.
 
 
