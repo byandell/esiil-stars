@@ -5,7 +5,6 @@ These notes are associated with ESIIL Stars 2026 Cohort:
 - [ESIIL Stars](https://esiil.org/esiil-stars)
 - [cu-esiil-edu](https://github.com/cu-esiil-edu) GitHub Organization
   - [cu-esiil-edu/stars-2026](https://github.com/cu-esiil-edu/stars-2026)
-- [ESIIL Stars (EDS Learning Portal)](https://earthdatascience.org/pages/00-overviews/04a-courses/stars/)
 
 This repo
 <https://github.com/byandell/esiil-stars>
@@ -13,6 +12,8 @@ is published via GitHub pages as
 [byandell.github.io/esiil-stars](https://byandell.github.io/esiil-stars)
 by turning on GitHub Pages in the same manner as the assignment to
 [Build your Environmental Data Science portfolio](https://earthdatascience.org/pages/03-git-github/03-github-portfolio/portfolio-stars.html).
+
+## Table of Contents
 
 - [Keep Track of Your Work](#keep-track-of-your-work)
 - [Embed Dynamic HTML in GitHub Pages](#embed-dynamic-html-in-github-pages)
