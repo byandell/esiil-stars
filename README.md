@@ -130,7 +130,7 @@ If the repo is `private`, it will remain `private`.
 
 The simple repo `private-repo` in the
 [ESIIL Education](https://cu-esiil-edu.github.io/)
-`GitHub Organization
+GitHub Organization
 is only visible to authorized members,
 which are typically ESIIL faculty and staff. 
 However, the published page is visible to all.
