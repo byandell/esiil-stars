@@ -17,6 +17,7 @@ by turning on GitHub Pages in the same manner as the assignment to
 
 - [Keep Track of Your Work](#keep-track-of-your-work)
 - [Embed Dynamic HTML in GitHub Pages](#embed-dynamic-html-in-github-pages)
+- [Sliders on Dynamic HTMLs](#sliders-on-dynamic-htmls)
 - [Publish with GitHub Pages](#publish-with-github-pages)
   - [Published ESIIL Stars Projects](#published-esiil-stars-projects) 
   - [Publish `docs/` Folder From Private Repo](#publish-docs-folder-from-private-repo)
@@ -96,6 +97,82 @@ This image will not display properly in `Preview` mode or in the GitHub repo,
 but it will display on the published page
 <https://byandell.github.io/esiil-stars>
 once the edits are committed to GitHub.
+
+## Sliders on Dynamic HTML
+
+With data over time, it is nice to have sliders.
+Including sliders depends on the type of dynamic plot package.
+
+### HVPLOT
+
+One example used above is a slider on an HVPLOT object.
+For this, see
+[Marsha's migration-mj notebook](https://github.com/cu-esiil-edu/03-migration-MarshaJ24/blob/main/notebooks/migration-mj.ipynb).
+Key code blocks:
+
+```python
+# Join the occurrences with the plotting GeoDataFrame
+occurrence_gdf = ecoregions_gdf.merge(
+    occurrence_df.reset_index(), 
+    on='eco_code')
+
+# Get the plot bounds so they don't change with the slider
+xmin, ymin, xmax, ymax = occurrence_gdf.total_bounds
+
+# Define the slider widget
+slider = pn.widgets.DiscreteSlider(
+    name='month',
+    options={calendar.month_name[i]: i for i in range(1, 13)}
+)
+
+# Plot occurrence by ecoregion and month
+migration_plot = (
+    occurrence_gdf
+    .hvplot(
+        c='norm_occurrences',
+        groupby='month',
+        # Use background tiles
+        geo=True, crs=ccrs.Mercator(), tiles='CartoLight',
+        title=f"{species_name} migration",
+        xlim=(xmin, xmax), ylim=(ymin, ymax),
+        frame_width=500,
+        colorbar=False,
+        widgets={'month': slider},
+        widget_location='bottom'
+    )
+)
+```
+
+```python
+migration_plot.save(f'{plot_filename}.html', embed=True)
+```
+
+### GEEPLOT
+
+Another version is to use
+[Google Earth Engine Map (geemap)](https://geemap.org/).
+For instance, see the example
+[72 time slider gui](https://geemap.org/notebooks/72_time_slider_gui/)
+Here is the code:
+
+```python
+import ee
+import geemap
+# geemap.update_package()
+Map = geemap.Map(center=[37.75, -122.45], zoom=12)
+
+S2 = (
+    ee.ImageCollection("COPERNICUS/S2_SR")
+    .filterBounds(ee.Geometry.Point([-122.45, 37.75]))
+    .filterMetadata("CLOUDY_PIXEL_PERCENTAGE", "less_than", 10)
+)
+
+vis_params = {"min": 0, "max": 4000, "bands": ["B8", "B4", "B3"]}
+
+Map.addLayer(S2, {}, "Sentinel-2", False)
+Map.add_time_slider(S2, vis_params)
+Map
+```
 
 ## Publish with GitHub Pages
 
