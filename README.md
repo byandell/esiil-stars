@@ -17,7 +17,7 @@ by turning on GitHub Pages in the same manner as the assignment to
 
 - [Keep Track of Your Work](#keep-track-of-your-work)
 - [Embed Dynamic HTML in GitHub Pages](#embed-dynamic-html-in-github-pages)
-- [Sliders on Dynamic HTMLs](#sliders-on-dynamic-htmls)
+- [Sliders on Dynamic HTML](#sliders-on-dynamic-html)
 - [Publish with GitHub Pages](#publish-with-github-pages)
   - [Published ESIIL Stars Projects](#published-esiil-stars-projects) 
   - [Publish `docs/` Folder From Private Repo](#publish-docs-folder-from-private-repo)
