@@ -30,6 +30,7 @@ by turning on GitHub Pages in the same manner as the assignment to
     - [Publish GitHub Pages](https://byandell.github.io/Documentation/github/pages.html)
     - [Embed Objects in GitHub Pages](https://byandell.github.io/Documentation/github/embed.html)
     - [Collaborate with GitHub Organizations](https://byandell.github.io/Documentation/github/#collaborate-with-github-organizations)
+    - [Interactive and Dynamic Plots](https://byandell.github.io/Documentation/python/interactive.html)
    
 *[byandell/esiil-stars](https://github.com/byandell/esiil-stars)*
 
@@ -102,6 +103,8 @@ once the edits are committed to GitHub.
 
 With data over time, it is nice to have sliders.
 Including sliders depends on the type of dynamic plot package.
+For more information, see
+[Interactive and Dynamic Plots](https://byandell.github.io/Documentation/python/interactive.html)
 
 ### HVPLOT
 
