@@ -18,6 +18,7 @@ by turning on GitHub Pages in the same manner as the assignment to
 - [Keep Track of Your Work](#keep-track-of-your-work)
 - [Embed Dynamic HTML in GitHub Pages](#embed-dynamic-html-in-github-pages)
 - [Sliders on Dynamic HTML](#sliders-on-dynamic-html)
+- [Scatter Plots to Relate Measurements](#scatter-plots-to-relate-measurements)
 - [Publish with GitHub Pages](#publish-with-github-pages)
   - [Published ESIIL Stars Projects](#published-esiil-stars-projects) 
   - [Publish `docs/` Folder From Private Repo](#publish-docs-folder-from-private-repo)
@@ -31,6 +32,7 @@ by turning on GitHub Pages in the same manner as the assignment to
     - [Embed Objects in GitHub Pages](https://byandell.github.io/Documentation/github/embed.html)
     - [Collaborate with GitHub Organizations](https://byandell.github.io/Documentation/github/#collaborate-with-github-organizations)
     - [Interactive and Dynamic Plots](https://byandell.github.io/Documentation/python/interactive.html)
+    - [Data Sciences](https://byandell.github.io/Documentation/datasci/)
    
 *[byandell/esiil-stars](https://github.com/byandell/esiil-stars)*
 
@@ -176,6 +178,22 @@ Map.addLayer(S2, {}, "Sentinel-2", False)
 Map.add_time_slider(S2, vis_params)
 Map
 ```
+
+## Scatter Plots to Relate Measurements
+
+A scatter plot is an XY-plot of two measurements, ideally augmented with color and trend lines and maybe even facets.
+Data scientists do this all the time in `R` with the
+[ggplot2](https://ggplot2.tidyverse.org/) package,
+which has a Python version as
+[plotnine](https://plotnine.readthedocs.io/).
+
+I have an example using `plotnine` in the section
+[Scatter Plots with GGplot](https://byandell-envsys.github.io/landmapyr/climate.html#scatter-plots-with-ggplot)
+of an EDA report
+[Habitat suitability under climate change](https://byandell-envsys.github.io/landmapyr/climate.html).
+
+Additional information about data science approaches can be found in
+[Data Sciences](https://byandell.github.io/Documentation/datasci/).
 
 ## Publish with GitHub Pages
 
