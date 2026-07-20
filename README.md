@@ -199,7 +199,7 @@ The code uses `plotnine` in python.
 
 I think it is much better to show data explicitly (and do it early in a report) rather than talk about the concept.
 I also do not think correlation works well when considering processes over time and space,
-where there is substantial auto-correlation build in and variability due to the scale of measures.
+where there is substantial auto-correlation built in and variability due to the scale of measures.
 Cumulative measures are much better behaved for a variety of reasons.
 
 I have another example using `plotnine` in the section
