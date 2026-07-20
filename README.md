@@ -187,7 +187,22 @@ Data scientists do this all the time in `R` with the
 which has a Python version as
 [plotnine](https://plotnine.readthedocs.io/).
 
-I have an example using `plotnine` in the section
+A question came up of how to relate rain and drought (or any other measures over time and space).
+I figured out how to create the plot I suggested from cumulative rain and drought.
+I used an example of two counties in SD, which are homes to Oglala Lakota (Pine Ridge in Oglala Lakota County)
+and Sicangu (Rosebud in Todd County).
+Here are links to the published reports and the GitHub repo.
+The code uses `plotnine` in python.
+
+- <https://byandell.github.io/rainDrought/> (published report)
+- <https://github.com/byandell/rainDrought> (GitHub repo)
+
+I think it is much better to show data explicitly (and do it early in a report) rather than talk about the concept.
+I also do not think correlation works well when considering processes over time and space,
+where there is substantial auto-correlation build in and variability due to the scale of measures.
+Cumulative measures are much better behaved for a variety of reasons.
+
+I have another example using `plotnine` in the section
 [Scatter Plots with GGplot](https://byandell-envsys.github.io/landmapyr/climate.html#scatter-plots-with-ggplot)
 of an EDA report
 [Habitat suitability under climate change](https://byandell-envsys.github.io/landmapyr/climate.html).
