@@ -187,6 +187,12 @@ Data scientists do this all the time in `R` with the
 which has a Python version as
 [plotnine](https://plotnine.readthedocs.io/).
 
+Here is a small repo with code for scatter plots in `R` and `Python` (hence the name `scattyr`).
+It shows how to use color, symbol shape and facets to help reveal patterns in data.
+
+- <https://byandell.github.io/scattyr/> (published report)
+- <https://github.com/byandell/scattyr> (GitHub repo)
+
 A question came up of how to relate rain and drought (or any other measures over time and space).
 I figured out how to create the plot I suggested from cumulative rain and drought.
 I used an example of two counties in SD, which are homes to Oglala Lakota (Pine Ridge in Oglala Lakota County)
